@@ -8,8 +8,8 @@ namespace Math_Application
 {
     public class Triangle : Shape
     {
-        private double _side1, _side2, _side3;
-        private string _name;
+        private readonly double _side1, _side2, _side3;
+        private readonly string _name;
         public override string Name{ get { return _name; } }
 
         public override double Perimeter { get { return _side1 + _side2 +_side3; } }
@@ -27,12 +27,16 @@ namespace Math_Application
             _side1 = side1;
             _side2 = side2;
             _side3 = side3;
+
+            Instance++;
+
             if ((side1 == side2) && (side2 == side3))
                 _name = "Equilateral Trangle";
             else if ((side1 == side2) || (side1 == side3) || (side2 == side3))
                 _name = "Isosceles Trangle";
             else
                 _name = "Scalene Triangle";
+            
         }
     }
 }

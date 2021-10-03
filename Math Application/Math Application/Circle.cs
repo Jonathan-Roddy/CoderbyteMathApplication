@@ -8,7 +8,7 @@ namespace Math_Application
 {
     public class Circle : Shape
     {
-        private double _radius;
+        private readonly double _radius;
         public override string Name { get { return "Circle"; } }
 
         public override double Perimeter{ get { return 2.0 * Math.PI * _radius; } }
@@ -17,6 +17,8 @@ namespace Math_Application
 
         public Circle(double radius) {
             _radius = radius;
+
+            Instance++;
         }
 
     }

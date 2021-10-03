@@ -12,5 +12,17 @@ namespace Math_Application
         public abstract double Perimeter { get; }
 
         public abstract double SurfaceArea { get; }
+
+        public static int Instance;
+
+        public static double GetArea(Shape shape) => shape.SurfaceArea;
+
+        public static double GetPerimeter(Shape shape) => shape.Perimeter;
+
+        public static void PrintShape(List<Shape> shape) {
+            foreach (var s in shape) { 
+                Console.WriteLine($"{s.Name}: Area = {Shape.GetArea(s)}; " + $"Perimeter = {Shape.GetPerimeter(s)};");
+            }
+        }
     }
 }
