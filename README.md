@@ -1,9 +1,5 @@
-
 # Requirements
-1. Define a Shape object, where the object is any two-dimensional figure, and has the following characteristics: a name, perimeter and
-
-a surface area.
-
+1. Define a Shape object, where the object is any two-dimensional figure, and has the following characteristics: a name, perimeter and a surface area.
 
 
 2. Define a Circle object which retains the aforementioned characteristics of a Shape. The calculations for a circle are:
@@ -14,11 +10,7 @@ a surface area.
 
 
 
-3. Define a Triangle object which retains the aforementioned characteristics of a Shape. The name of the triangle should take into
-
-account if it is equilateral (all 3 sides are the same length), isosceles (only 2 sides are the same length) or scalene (no 2 sides are
-
-the same).
+3. Define a Triangle object which retains the aforementioned characteristics of a Shape. The name of the triangle should take into account if it is equilateral (all 3 sides are the same length), isosceles (only 2 sides are the same length) or scalene (no 2 sides are the same).
 
 - Area of triangle = (Height * base) / 2
 
@@ -26,9 +18,7 @@ the same).
 
 
 
-4. Define 2 different quadrilaterals, a Square and Rectangle which retains the aforementioned characteristics of a Shape.
-
-  The name should take into account if all sides are the same length.
+4. Define 2 different quadrilaterals, a Square and Rectangle which retains the aforementioned characteristics of a Shape. The name should take into account if all sides are the same length.
 
   - Area of Square/Rectangle = width*length
 
