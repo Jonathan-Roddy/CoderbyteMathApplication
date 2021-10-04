@@ -21,11 +21,12 @@ C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math 
 C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\bin\Debug\net5.0\Math Application.dll
 C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\bin\Debug\net5.0\ref\Math Application.dll
 C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\bin\Debug\net5.0\Math Application.pdb
-C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\obj\Debug\net5.0\Math Application.csproj.AssemblyReference.cache
+C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\obj\Debug\net5.0\Math Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\obj\Debug\net5.0\Math Application.AssemblyInfoInputs.cache
 C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\obj\Debug\net5.0\Math Application.AssemblyInfo.cs
 C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\obj\Debug\net5.0\Math Application.csproj.CoreCompileInputs.cache
+C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\obj\Debug\net5.0\Math Application.csproj.CopyComplete
 C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\obj\Debug\net5.0\Math Application.dll
 C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\obj\Debug\net5.0\ref\Math Application.dll
 C:\Users\Master\Documents\GitHub\CoderbyteMathApplication\Math Application\Math Application\obj\Debug\net5.0\Math Application.pdb

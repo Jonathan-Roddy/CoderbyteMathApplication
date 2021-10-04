@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Math_Application
 {
+    // Parent class
     public abstract class Shape
     {
         public abstract string Name { get; }
@@ -20,8 +21,11 @@ namespace Math_Application
         public static double GetPerimeter(Shape shape) => shape.Perimeter;
 
         public static void PrintShape(List<Shape> shape) {
+            int i = 1;
             foreach (var s in shape) { 
-                Console.WriteLine($"{s.Name}: Area = {Shape.GetArea(s)}; " + $"Perimeter = {Shape.GetPerimeter(s)};");
+
+                Console.WriteLine(i + ") " + $"{s.Name}: Area = {Shape.GetArea(s)}; " + $"Perimeter = {Shape.GetPerimeter(s)};");
+                i++;
             }
         }
     }

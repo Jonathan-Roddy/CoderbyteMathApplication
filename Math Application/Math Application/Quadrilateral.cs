@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Math_Application
 {
+    // Child class
     class Quadrilateral : Shape
     {
         private readonly double _width, _length;

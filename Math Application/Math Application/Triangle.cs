@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Math_Application
 {
+    // Child class
     public class Triangle : Shape
     {
         private readonly double _side1, _side2, _side3;

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Math_Application
 {
+    // Child class
     public class Circle : Shape
     {
         private readonly double _radius;
